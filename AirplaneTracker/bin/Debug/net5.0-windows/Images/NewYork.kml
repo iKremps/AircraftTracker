@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NewYork.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>NewYork</name>
+		<open>1</open>
+		<Placemark>
+			<name>Center</name>
+			<LookAt>
+				<longitude>-74.00597381642231</longitude>
+				<latitude>40.71277705302684</latitude>
+				<altitude>0</altitude>
+				<heading>-6.629673730438605e-07</heading>
+				<tilt>0</tilt>
+				<range>176863.7341903092</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-74.00597381642231,40.71277705302684,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UpperLeft</name>
+			<LookAt>
+				<longitude>-74.00597399938108</longitude>
+				<latitude>40.71277147049407</latitude>
+				<altitude>0</altitude>
+				<heading>-7.815708248446457e-07</heading>
+				<tilt>0</tilt>
+				<range>176863.7674726643</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.22914844245166,41.24324040695092,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>UpperRight</name>
+			<LookAt>
+				<longitude>-74.00597399938108</longitude>
+				<latitude>40.71277147049407</latitude>
+				<altitude>0</altitude>
+				<heading>-7.815708248446457e-07</heading>
+				<tilt>0</tilt>
+				<range>176863.7674726643</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.77833060763838,41.23985710730108,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LowerLeft</name>
+			<LookAt>
+				<longitude>-74.00597399938108</longitude>
+				<latitude>40.71277147049407</latitude>
+				<altitude>0</altitude>
+				<heading>-7.815708248446457e-07</heading>
+				<tilt>0</tilt>
+				<range>176863.7674726643</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.21124897009406,40.17160932355757,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>LowerRight</name>
+			<LookAt>
+				<longitude>-74.00597399938108</longitude>
+				<latitude>40.71277147049407</latitude>
+				<altitude>0</altitude>
+				<heading>-7.815708248446457e-07</heading>
+				<tilt>0</tilt>
+				<range>176863.7674726643</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-72.7986228909523,40.16950190981861,0</coordinates>
+			</Point>
+		</Placemark>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Folder>
+</Document>
+</kml>
