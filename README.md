@@ -1,9 +1,9 @@
 # AircraftTracker
 
 This is a real-time aircraft tracking application that visualizes flight data over satellite maps using custom-drawn graphics.
-• Integrated external APIs (Airplanes.live, AviationStack) to display aircraft metadata, flight paths, and locations.
-• Implemented a modular architecture with support for dynamic location loading via KML and PNG files.
-• Implemented precise lat/lon to pixel mapping using dynamic bounding box calculations and KML-based geolocation data, enabling accurate
+- Integrated external APIs (Airplanes.live, AviationStack) to display aircraft metadata, flight paths, and locations.
+- Implemented a modular architecture with support for dynamic location loading via KML and PNG files.
+- Implemented precise lat/lon to pixel mapping using dynamic bounding box calculations and KML-based geolocation data, enabling accurate
 overlay of real-time aircraft positions on satellite map imagery.
 
 
