@@ -54,6 +54,7 @@ namespace AirplaneTracker
             this.label3 = new System.Windows.Forms.Label();
             this.txtCallsign = new System.Windows.Forms.TextBox();
             this.showOriginAndDestinationBox = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridPlanes)).BeginInit();
             this.SuspendLayout();
@@ -278,6 +279,15 @@ namespace AirplaneTracker
             this.showOriginAndDestinationBox.Text = "Origin/Destination";
             this.showOriginAndDestinationBox.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(956, 994);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(104, 15);
+            this.label5.TabIndex = 23;
+            this.label5.Text = "(Limited API Calls)";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -285,6 +295,7 @@ namespace AirplaneTracker
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(1241, 1047);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.showOriginAndDestinationBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtCallsign);
@@ -365,6 +376,7 @@ namespace AirplaneTracker
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtCallsign;
         private System.Windows.Forms.CheckBox showOriginAndDestinationBox;
+        private System.Windows.Forms.Label label5;
     }
 }
 

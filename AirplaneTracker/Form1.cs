@@ -559,6 +559,7 @@ namespace AirplaneTracker
 
             RangeDropDown.SelectedIndex = 0;
             label2.Hide();
+            dataGridPlanes.Hide();
 
             LoadCSV(csvFilePath);
 
@@ -572,6 +573,7 @@ namespace AirplaneTracker
                 if(IsAnyRadioButtonChecked(this))
                 {
                     label2.Show();
+                    dataGridPlanes.Show();
 
                     // 1. Call API & set master list of planes that we will filter from
                     Flights flights = await GetPlanesAsync(CordsX, CordsY, range);
